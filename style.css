@@ -1,0 +1,84 @@
+/* Tambahkan gaya khusus di sini jika diperlukan */
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.about img {
+    max-width: 40%;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+.img-res {
+    width: 250px; /* Membuat gambar tidak melebihi ukuran kontainer */
+    height: 150px; /* Menjaga proporsi gambar */
+    display: block; /* Menghilangkan jarak default pada elemen inline */
+    margin: 0 auto; /* Agar gambar berada di tengah */
+}
+
+#pengalaman.card {
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+/* Mengganti Background Header */
+header {
+    background: linear-gradient(to right, #333, #333); 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Background Body */
+body {
+    background-color: #dedddc; /* Warna abu-abu terang */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Section "About" */
+.about {
+    background-color: #dedddc; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section "Skills" */
+.skills {
+    background: linear-gradient(to bottom, #333, #6C757D); /* Gradien kuning ke oranye */
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* Section "Contact" */
+.contact {
+    background-color: #DFF6FF; /* Warna biru muda */
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Warna abu-abu gelap */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
