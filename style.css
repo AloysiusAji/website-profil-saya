@@ -12,6 +12,7 @@ header p {
     max-width: 40%;
     margin-bottom: 20px;
     border-radius: 5%;
+    margin-left: 150px;
 }
 .img-res {
     width: 250px; /* Membuat gambar tidak melebihi ukuran kontainer */
